@@ -1,17 +1,16 @@
 {
-  "readmeUrl": "https://raw.githubusercontent.com/cveinnt/cveinnt/master/README.md",
-  "title": "LiveTerm",
-  "name": "John Doe",
-  "ascii": "liveterm",
+  "title": "Gusto ko ng momol",
+  "name": "Sevy",
+  "ascii": "I Really Like You",
   "social": {
-    "github": "github",
-    "linkedin": "linkedin"
+    "fb": "ykgasuncion",
+    "ig": "ykgasuncion",
+    "x": "ykgasuncion"
   },
-  "email": "contact@email.com",
-  "ps1_hostname": "liveterm",
-  "ps1_username": "visitor",
+  "ps1_hostname": "_ksyy21",
+  "ps1_username": "Kasey",
   "repo": "https://github.com/Cveinnt/LiveTerm",
-  "resume_url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Resume.pdf",
+  "resume_url": "https://kaleidono.github.io/reserved-by-kasey/",
   "donate_urls": {
     "paypal": "https://paypal.me/cveinnt",
     "patreon": "https://patreon.com/cveinnt"
