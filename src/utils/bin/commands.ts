@@ -14,7 +14,7 @@ export const pusa = async (args: string[]): Promise<string> => {
       c += Object.keys(bin).sort()[i - 1] + ' | ';
     }
   }
-  return `Welcome, Kasey! Try out these commands or someshit:
+  return `Welcome back, Kasey! Always remember that my heart belongs to you ^o^
 \n${c}\n
 [tab]: auto-complete command.
 clear: clear terminal.\n
@@ -55,6 +55,10 @@ export const kasey = async (args?: string[]): Promise<string> => {
   return `Yes, you know what I said before and I'm dedicating this song to you. Now, you're either stuck here with me or I'm stuck here with you.`;
 };
 
+export const spotify = async (args?: string[]): Promise<string> => {
+  window.open('https://open.spotify.com/playlist/5RYcsBobYdSWcSBL9NR2P4?si=6c2195a6f2db4de0&pt=9727512030cd2337783cd65e976c2b40', '_blank');
+  return 'This playlist represents my feelings from when we first met up to now :>';
+};
 
 // Banner
 export const banner = (args?: string[]): string => {
