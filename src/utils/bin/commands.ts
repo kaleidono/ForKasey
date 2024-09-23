@@ -15,6 +15,7 @@ export const babi = async (args: string[]): Promise<string> => {
     }
   }
   return `Welcome back, Kasey! I love you. For all time, always.
+\n${c}\n
 [tab]: auto-complete command.
 clear: clear terminal.\n
 `;
