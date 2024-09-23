@@ -111,6 +111,6 @@ export const banner = (args?: string[]): string => {
       ....     ..........      .......            .......        ..........            .......      
                                                                                                     
                                                                                                          
-Type 'pusa' to see the list of available commands.
+Type 'babi' to see the list of available commands.
 `;
 };
