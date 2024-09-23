@@ -4,7 +4,7 @@ import * as bin from './index';
 import config from '../../../config.json';
 
 // Help
-export const pusa = async (args: string[]): Promise<string> => {
+export const babi = async (args: string[]): Promise<string> => {
   const commands = Object.keys(bin).sort().join(', ');
   var c = '';
   for (let i = 1; i <= Object.keys(bin).sort().length; i++) {
@@ -14,7 +14,7 @@ export const pusa = async (args: string[]): Promise<string> => {
       c += Object.keys(bin).sort()[i - 1] + ' | ';
     }
   }
-  return `Welcome back, Kasey! Always remember that my heart belongs to you ^o^
+  return `Welcome back, Kasey! I love you. For all time, always.
 \n${c}\n
 [tab]: auto-complete command.
 clear: clear terminal.\n
