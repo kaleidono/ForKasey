@@ -1,5 +1,5 @@
 // List of commands that do not require API calls
-/*
+
 import * as bin from './index';
 import config from '../../../config.json';
 
@@ -114,4 +114,3 @@ export const banner = (args?: string[]): string => {
 Type 'babi' to see the list of available commands.
 `;
 };
-*/
