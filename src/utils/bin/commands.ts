@@ -1,5 +1,5 @@
 // List of commands that do not require API calls
-
+/*
 import * as bin from './index';
 import config from '../../../config.json';
 
@@ -36,7 +36,7 @@ export const date = async (args: string[]): Promise<string> => {
   return new Date().toString();
 };
 
-/*
+//make comment
 export const yes = async (args: string[]): Promise<string> => {
   return `WOW OKAY THAT WAS FAST BUT DAMN, YOU'RE VERY PRETTY. NOW GO TELL ME ON MESSENGER OR SOMESHIT, THANK YOU AND I LOVE YOU <3`;
 };
@@ -48,7 +48,7 @@ export const no = async (args: string[]): Promise<string> => {
 export const maybe = async (args: string[]): Promise<string> => {
   return `IT WAS A YES OR NO QUESTION OKAY? NOW RETHINK YOUR LIFE DECISIONS. JUST KIDDING, I STILL LOVE YOU BUT DAMN >:(`;
 };
-*/
+
 
 export const kasey = async (args?: string[]): Promise<string> => {
   window.open('https://www.youtube.com/watch?v=nKYzqA2Vgco', '_blank');
