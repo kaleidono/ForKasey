@@ -36,7 +36,7 @@ export const date = async (args: string[]): Promise<string> => {
   return new Date().toString();
 };
 
-//make comment
+
 export const yes = async (args: string[]): Promise<string> => {
   return `WOW OKAY THAT WAS FAST BUT DAMN, YOU'RE VERY PRETTY. NOW GO TELL ME ON MESSENGER OR SOMESHIT, THANK YOU AND I LOVE YOU <3`;
 };
@@ -114,3 +114,4 @@ export const banner = (args?: string[]): string => {
 Type 'babi' to see the list of available commands.
 `;
 };
+*/
